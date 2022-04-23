@@ -1,49 +1,44 @@
 import {aboutArray} from '../utils/aboutUsArray.js';
-let windowOuterWidth = window.outerWidth; 
-function slider(perview,group) {
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: perview,
-        spaceBetween: 35,
-        slidesPerGroup: group,
-        loop: false,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+
+var swiper = new Swiper(".aboutUs__cards", {
+    slidesPerView: 1,
+    spaceBetween: 35,
+    slidesPerGroup: 1,
+    loopFillGroupWithBlank: true,
+    pagination: {
+        el: ".aboutUs__pagination",
+        clickable: true,
+
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        430: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            slidesPerGroup: 1,
         },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        650: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+            slidesPerGroup: 2,
         },
-      });
-}
-        if(windowOuterWidth < 1368 && windowOuterWidth > 786) {
-            slider(2,1)
-        } else if (windowOuterWidth < 786) {
-            slider(1,1)
+        910: {
+            slidesPerView: 3,
+            spaceBetween: 35,
+            slidesPerGroup: 3,
         }
-         else {
-            slider(3,3)
-        }
-        
-window.addEventListener('resize', () => {
-    windowOuterWidth = window.outerWidth
-    if(windowOuterWidth < 1368 && windowOuterWidth > 786) {
-        slider(2,1)
-    } else if (windowOuterWidth < 786) {
-        slider(1,1)
     }
-     else {
-        slider(3,3)
-    }
-})
+});
 
 const aboutUsContainer = document.querySelector('.aboutUs-container')
 aboutArray.forEach((item) => {
     let aboutUsElement = document
-        .querySelector('#aboutUs-element') 
-        .content                           
-        .querySelector('.swiper-slide')          
+        .querySelector('#aboutUs-element')
+        .content
+        .querySelector('.swiper-slide')
         .cloneNode(true);
     aboutUsElement.querySelector('.aboutUs__date').textContent = item.date
     aboutUsElement.querySelector('.aboutUs__smallTitle').textContent = item.title;

@@ -1,0 +1,6 @@
+.aboutUs__sliderContainer {
+    position: relative;
+    margin: 45px auto 0;
+    transition: all .2s ease-in-out;
+    max-width: 1110px;
+}

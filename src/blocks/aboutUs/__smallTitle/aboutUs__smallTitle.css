@@ -2,10 +2,11 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
+    height: 90px;
     color: #001337;
     margin: 0;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #009FAC;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 746px) {
