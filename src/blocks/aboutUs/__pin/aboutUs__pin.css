@@ -1,0 +1,7 @@
+.aboutUs__pin {
+    position: absolute;
+    top: -14px;
+    right: -8px;
+    display: block;
+    object-fit: cover;
+}

@@ -1,0 +1,21 @@
+.feedback {
+    background-color: #009FAC;
+    box-sizing: border-box;
+    padding: 40px 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .feedback {
+        padding: 60px 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback {
+        padding: 80px 165px 35px;
+    }
+}

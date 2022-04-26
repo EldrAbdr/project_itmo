@@ -1,0 +1,28 @@
+.education__tab {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    height: 100%;
+    width: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all .3s;
+}
+
+@media screen and (min-width: 1440px) {
+    .education__tab {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .education__tab {
+        font-size: 12px;
+        border-radius: 7px;
+    }
+}

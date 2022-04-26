@@ -1,0 +1,20 @@
+.footer__aboutUs {
+    display: none;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__aboutUs {
+        display: block;
+        width: 30%;
+        margin-right: 20px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__aboutUs {
+        width: 24%;
+        margin-right: 0;
+    }
+}

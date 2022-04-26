@@ -1,0 +1,23 @@
+.aboutUs__group {
+    align-self: flex-end;
+    max-width: 445px;
+    margin-top: 92px;
+    margin-bottom: 124px;
+}
+
+@media screen and (max-width: 1124px) {
+    .aboutUs__group {
+        align-self: flex-start;
+        margin-left: 39px;
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 746px) {
+    .aboutUs__group {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-bottom: 48px;
+    }
+}

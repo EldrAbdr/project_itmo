@@ -1,0 +1,26 @@
+.feedback__input {
+    color: #009FAC;
+    border-radius: 6px;
+    font-size: 12px;
+    height: 44px;
+    width: 100%;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+    border: 0;
+}
+
+.feedback__input::-webkit-input-placeholder {
+    color: #009FAC
+}
+
+.feedback__input::-moz-placeholder {
+    color: #009FAC
+}
+
+@media screen and (min-width: 768px) {
+    .feedback__input:nth-child(5) {
+        grid-column: 3;
+        grid-row: 1/ span 2;
+    }
+}

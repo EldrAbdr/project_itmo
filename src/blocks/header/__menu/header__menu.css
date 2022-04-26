@@ -1,0 +1,10 @@
+.header__menu {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    min-width: 320px;
+    height: 492px;
+    background: #000D26;
+    transition: all 1s ease;
+}

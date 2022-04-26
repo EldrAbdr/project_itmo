@@ -1,0 +1,4 @@
+.highlight:hover {
+    box-shadow: 0 0 1px 1px white;
+    transition: all .2s;
+}

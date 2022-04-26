@@ -1,0 +1,7 @@
+.aboutUs__auto {
+    display: flex;
+    flex-direction: column;
+    max-width: 1132px;
+    margin: 0 auto;
+    transition: all .5s ease;
+}

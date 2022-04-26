@@ -1,0 +1,14 @@
+.aboutUs__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 68px;
+    margin: 0;
+}
+
+@media screen and (max-width: 746px) {
+    .aboutUs__title {
+        font-size: 32px;
+        line-height: 44px;
+        width: 256px;
+    }
+ }

@@ -1,0 +1,15 @@
+.projects__pagination-arrow {
+    width: 32px;
+    cursor: pointer;
+    background-position: center;
+    background-color: transparent;
+    display: block;
+    height: 32px;
+}
+      
+@media screen and (max-width: 768px) {
+  .projects__pagination-arrow {
+    height: 24px;
+    width: 24px;
+  }
+}

@@ -1,0 +1,13 @@
+.aboutUs__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000D26;
+}
+
+@media screen and (max-width: 746px) {
+    .aboutUs__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

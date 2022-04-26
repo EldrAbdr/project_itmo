@@ -1,0 +1,25 @@
+.aboutUs__nti {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    max-width: 907px;
+    margin: 0;
+    align-self: center;
+}
+
+@media screen and (max-width: 1124px) {
+    .aboutUs__nti {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width: 746px) {
+    .aboutUs__nti {
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 288px;
+    }
+}

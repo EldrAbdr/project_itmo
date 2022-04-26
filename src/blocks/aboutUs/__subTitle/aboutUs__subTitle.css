@@ -1,0 +1,16 @@
+.aboutUs__subTitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1124px) {
+    .aboutUs__subTitle {
+        font-size: 24px;
+        line-height: 33px;  
+    }
+}

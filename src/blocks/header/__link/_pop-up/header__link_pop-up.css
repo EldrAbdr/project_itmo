@@ -1,0 +1,11 @@
+.header__link_pop-up {
+    line-height: 24px;
+    margin: 0;
+    padding: 0 8px 0;
+    height: 28px;
+}
+
+.header__link_pop-up:hover {
+    background: #009FAC;
+    box-shadow: none;
+}

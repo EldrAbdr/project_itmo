@@ -1,0 +1,8 @@
+.header__link_group {
+    position: absolute;
+    opacity: 0;
+    top: 100%;
+    right: 42%;
+    background: #000D26;
+    transition: all .5s linear;
+}

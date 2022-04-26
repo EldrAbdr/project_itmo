@@ -1,0 +1,30 @@
+.footer {
+    box-sizing: border-box;
+    background-color: #001337;
+    padding: 40px 16px 35px 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 500px) {
+    .footer {
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 60px 40px 60px 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        font-size: 14px;
+        padding: 80px 165px 80px 165px;
+    }
+}

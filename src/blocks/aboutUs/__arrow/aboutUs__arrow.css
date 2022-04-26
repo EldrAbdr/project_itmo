@@ -1,0 +1,11 @@
+.aboutUs__arrow {
+    align-self: center;
+    transform-origin: left top;
+    transform-origin: 0% 0%;
+}
+
+@media screen and (max-width: 1421px) {
+    .aboutUs__arrow {
+        display: none;
+    }
+ }

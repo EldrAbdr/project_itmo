@@ -1,0 +1,23 @@
+.weWork {
+    background-color: #001337;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    color: white;
+    align-items: center;
+    padding: 197px 16px 35px 16px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+    .weWork {
+        padding: 282px 40px 75px 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .weWork {
+        padding: 385px 165px 80px 165px;
+    }
+}

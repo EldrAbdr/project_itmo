@@ -1,0 +1,19 @@
+.footer__headText {
+    width: 50%;
+}
+
+@media screen and (min-width: 500px) {
+    .footer__headText {
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__headText {
+        width: 300px;
+        margin-top: 38px;
+    }
+}

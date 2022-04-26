@@ -1,0 +1,21 @@
+.projects__pagination {
+  display: flex;
+  margin: 30px auto 0;
+  align-items: center;
+  min-height: 32px;
+  max-width: 224px;  
+}
+.projects__pagination-fraction {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.swiper-pagination-current{
+  margin-right: 15px;
+  border-bottom: 2px solid #009FAC;;
+}
+.swiper-pagination-total {
+  margin-left: 15px;
+}

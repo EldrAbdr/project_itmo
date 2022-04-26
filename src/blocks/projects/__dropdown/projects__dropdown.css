@@ -1,0 +1,33 @@
+.projects__dropdown {
+  display: none;
+  
+}
+
+@media screen and (max-width: 530px) {
+  .projects__dropdown {
+    display: block;
+    width: 100%;
+  }
+}
+
+.projects__dropdown-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 44px;
+  border-bottom: 2px solid #009FAC;
+  box-sizing: border-box;
+}
+.projects__dropdown-active-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.swiper-slide_hide {
+  display: none;
+}

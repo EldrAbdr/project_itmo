@@ -1,0 +1,13 @@
+.education__list {
+    color: black;
+    margin: 20px auto 20px 0;
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 860px) {
+    .education__list {
+        margin-bottom: 10px;
+    }
+}

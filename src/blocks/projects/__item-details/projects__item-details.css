@@ -1,0 +1,22 @@
+.projects__item-details {
+  
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__item-details {
+    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects__item-details {
+    
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.06px;
+  }
+}

@@ -1,0 +1,12 @@
+.header__buttonMenu {
+    display: none;
+    width: 50px;
+}
+
+@media screen and (max-width: 1124px) {
+    .header__buttonMenu {
+        display: flex;
+        margin-left: 39px;
+        width: 24px;
+    }
+}

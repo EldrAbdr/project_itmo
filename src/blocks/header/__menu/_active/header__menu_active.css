@@ -1,0 +1,5 @@
+.header__menu_active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}

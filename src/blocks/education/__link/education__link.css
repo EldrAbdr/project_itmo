@@ -1,0 +1,28 @@
+.education__link {
+    font-size: 1.25vw;
+    line-height: 1.6;
+    font-weight: 600;
+    color: black;
+    padding: 0;
+    text-decoration: none;
+}
+
+.education__link:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 860px) {
+    .education__link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .education__link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

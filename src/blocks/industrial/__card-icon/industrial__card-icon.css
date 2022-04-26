@@ -1,0 +1,13 @@
+.industrial__card-icon {
+    margin: 0 0 16px;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
+
+@media screen and (min-width: 768px) {
+    .industrial__card-icon {
+        width: 45%;
+        height: 45%;
+    }
+}

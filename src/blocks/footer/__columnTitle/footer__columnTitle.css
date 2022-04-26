@@ -1,0 +1,9 @@
+.footer__columnTitle {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__columnTitle {
+        font-weight: 400;
+    }
+}

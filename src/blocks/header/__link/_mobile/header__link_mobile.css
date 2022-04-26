@@ -1,0 +1,21 @@
+.header__link_mobile {
+    justify-content: start;
+    line-height: 19px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 40px;
+    transition: all .3s linear;
+}
+
+.header__link_mobile:hover {
+    box-shadow: none;
+    background: #001337;
+}
+
+@media screen and (max-width: 1124px) {
+    .header__link_mobile {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

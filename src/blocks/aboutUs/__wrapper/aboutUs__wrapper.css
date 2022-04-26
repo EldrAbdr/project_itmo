@@ -1,0 +1,4 @@
+.aboutUs__wrapper {
+    overflow-y: visible;
+    overflow-x: clip;
+}

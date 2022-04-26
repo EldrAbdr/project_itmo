@@ -1,0 +1,41 @@
+.education__title {
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 2;
+    color: white;
+    padding: 0;
+    margin: 80px auto 30px auto;
+}
+
+@media screen and (min-width: 1440px) {
+    .education__title {
+        font-size: 36px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .education__title {
+        font-size: 24px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .education__title {
+        font-size: 16px;
+        margin-top: 40px;
+        line-height: 1.5;
+    }
+}
+
+
+
+
+
+
+
+
+

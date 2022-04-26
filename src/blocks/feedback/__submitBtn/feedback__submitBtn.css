@@ -1,0 +1,32 @@
+.feedback__submitBtn {
+    border-radius: 6px;
+    background-color: #009FAC;
+    border: 1px solid white;
+    height: 44px;
+    color: white;
+    margin-top: 12px;
+    font-size: 14px;
+    width: 288px;
+    opacity: 1;
+    transition: all .2s;
+}
+
+.feedback__submitBtn:disabled {
+    opacity: .3;
+    cursor: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .feedback__submitBtn {
+        width: 210px;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .feedback__submitBtn {
+        width: 350px;
+        margin-top: 40px;
+    }
+}

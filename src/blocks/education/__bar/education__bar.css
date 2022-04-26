@@ -1,0 +1,31 @@
+.education__bar {
+    max-width: 540px;
+    min-width: 450px;
+    height: 60px;
+    width: 37.5%;
+    margin: 35px auto 80px auto;
+    border-radius: 10px;
+    border: white 1px solid;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #009FAC;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__bar {
+        width: 37.5%;
+        height: 44px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .education__bar {
+        width: 90%;
+        height: 40px;
+        margin: 16px auto 40px auto;
+        min-width: 288px;
+        border-radius: 7px;
+    }
+}

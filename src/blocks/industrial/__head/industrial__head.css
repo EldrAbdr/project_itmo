@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    .industrial__head {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        max-width: 1110px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .industrial__head {
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+}

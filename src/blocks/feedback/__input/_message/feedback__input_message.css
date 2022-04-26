@@ -1,0 +1,12 @@
+.feedback__input_message {
+    height: 140px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .feedback__input_message {
+        height: auto;
+    }
+}
+

@@ -1,0 +1,24 @@
+.weWork__subtitle {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    width: 100%;
+    margin: 0 auto 15px auto;
+}
+
+@media screen and (min-width: 500px) {
+    .weWork__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .weWork__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 auto 30px auto;
+        width: 83%;
+    }
+}

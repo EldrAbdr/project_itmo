@@ -1,0 +1,10 @@
+.aboutUs__points {
+    align-self: center;
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 1124px) {
+    .aboutUs__points {
+        margin-top: 21px;
+    }
+ }

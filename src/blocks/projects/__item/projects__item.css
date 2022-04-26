@@ -1,0 +1,38 @@
+.projects__item {
+  padding: 20px;
+  
+  max-width: 254px;
+  min-height: 307px;
+  background-image: url('../../../images/factory.png');
+  background-color: #009FAC;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: white;
+  transition: all .3s linear;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .projects__item {
+    max-width: 210px;
+    min-height: 280px;
+  }
+}
+
+.projects__item:hover {
+  background-color: white;
+  color: #001337;
+}
+
+.projects__item:hover .projects__item-logo {
+  fill: #001337;
+}
+
+.projects__item:last-child {
+  margin-right: 0px;
+  margin: 0 auto;
+}

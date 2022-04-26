@@ -1,0 +1,10 @@
+.header__logo_mobile {
+    margin: 0;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 746px) {
+    .header__logo_mobile {
+        width: 71px;
+    }
+ }

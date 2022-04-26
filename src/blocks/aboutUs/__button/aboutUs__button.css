@@ -1,0 +1,16 @@
+.aboutUs__button {
+    color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 120px;
+    top: 35%;
+    opacity: 1;
+    transition:all .1s linear ;
+    object-position: center;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1370px) {
+    .aboutUs__button{
+        display: none;
+    }
+}

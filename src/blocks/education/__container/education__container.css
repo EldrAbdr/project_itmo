@@ -1,0 +1,8 @@
+.education__container {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}

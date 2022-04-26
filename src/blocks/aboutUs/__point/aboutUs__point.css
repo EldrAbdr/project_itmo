@@ -1,0 +1,26 @@
+.aboutUs__point {
+    margin: 0;
+    margin-right: 12px;
+    opacity: 0.5;
+    transition: all .5s linear;
+}
+
+.aboutUs__point:nth-of-type(4) {
+    margin-right: 0;
+}
+
+.aboutUs__point:nth-of-type(5) {
+    display: none;
+}
+
+@media screen and (max-width: 1124px) {
+    .aboutUs__point:nth-of-type(5) {
+        display: inline;
+        margin-right: 0;
+    }
+    
+    .aboutUs__point:nth-of-type(4) {
+        margin-right: 12px;
+    }
+
+}

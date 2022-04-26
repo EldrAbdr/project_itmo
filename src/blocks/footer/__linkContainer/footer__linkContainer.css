@@ -1,0 +1,17 @@
+.footer__linkContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 500px) {
+    .footer__linkContainer {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer__linkContainer {
+        width: 30%;
+    }
+}

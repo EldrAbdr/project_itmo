@@ -1,0 +1,18 @@
+.aboutUs__smallTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    height: 90px;
+    color: #001337;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 746px) {
+    .aboutUs__smallTitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+}

@@ -1,0 +1,12 @@
+.projects__dropdown-menu-item {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
