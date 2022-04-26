@@ -48,18 +48,40 @@
 @import url(../blocks/aboutUs/__point/_active/aboutUs__point_active.css);
 @import url(../blocks/aboutUs/__arrow/-left/aboutUs__arrow-left.css);
 @import url(../blocks/aboutUs/__arrow/-right/aboutUs__arrow-right.css);
-
 /* aboutUs */
+/*industrial*/
+@import url(../blocks/industrial/industrial.css);
+@import url(../blocks/industrial/__title/industrial__title.css);
+@import url(../blocks/industrial/__subtitle/industrial__subtitle.css);
+@import url(../blocks/industrial/__head/industrial__head.css);
+@import url(../blocks/industrial/__image/industrial__image.css);
+@import url(../blocks/industrial/__text/industrial__text.css);
+@import url(../blocks/industrial/__cards/industrial__cards.css);
+@import url(../blocks/industrial/__card/industrial__card.css);
+@import url(../blocks/industrial/__card/_project/industrial__card_project.css);
+@import url(../blocks/industrial/__card/_ml/industrial__card_ml.css);
+@import url(../blocks/industrial/__card/_robot/industrial__card_robot.css);
+@import url(../blocks/industrial/__card/_data/industrial__card_data.css);
+@import url(../blocks/industrial/__title/industrial__title.css);
+@import url(../blocks/industrial/__card-btn/industrial__card-btn.css);
+@import url(../blocks/industrial/__card-icon/industrial__card-icon.css);
+@import url(../blocks/industrial/__card-subtitle/industrial__card-subtitle.css);
+@import url(../blocks/industrial/__card-title/industrial__card-title.css);
+/*------------------------------------------------------------------------------*/
+/*popup*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text-block/popup__text-block.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__textList/popup__textList.css);
 
-
-
+/*-------------------------------------------------------------------------------*/
 /* projects */
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__wrapper/projects__wrapper.css);
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__menu/projects__menu.css);
 @import url(../blocks/projects/__menu-item/projects__menu-item.css);
-@import url(../blocks/projects/__menu-item-link/projects__menu-item-link.css);
 @import url(../blocks/projects/__menu-item/_active/projects__menu-item_active.css);
 @import url(../blocks/projects/__item/projects__item.css);
 @import url(../blocks/projects/__item-logo/projects__item-logo.css);
@@ -72,7 +94,6 @@
 @import url(../blocks/projects/__dropdown-content/projects__dropdown-content.css);
 @import url(../blocks/projects/__dropdown-menu/projects__dropdown-menu.css);
 @import url(../blocks/projects/__dropdown-menu-item/projects__dropdown-menu-item.css);
-@import url(../blocks/projects/__dropdown-menu-link/projects__dropdown-menu-link.css);
 @import url(../blocks/projects/__menu-dropdown-button/projects__menu-dropdown-button.css);
 @import url(../blocks/projects/__dropdown-content/_opened/projects__dropdown-content_opened.css);
 @import url(../blocks/projects/__pagination/projects__pagination.css);
@@ -95,9 +116,6 @@
 @import url(../blocks/education/__tab/_active/education__tab_active.css);
 @import url(../blocks/education/__paragraph/education__paragraph.css);
 /*education*/
-
-@import url(../blocks/swiper/swiper.css);
-
 
 /*weWork*/
 @import url(../blocks/weWork/weWork.css);

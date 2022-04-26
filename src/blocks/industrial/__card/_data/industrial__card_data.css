@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+    .industrial__card_data {
+        background-image: linear-gradient(rgba(256, 256, 256, 1), rgba(256, 256, 256, 0)), url("../../../../images/industrial/overlay/Data.png");
+    }
+    .industrial__card_data:hover {
+        background-image: url("../../../../images/industrial/overlay/Data.png");
+    }
+}

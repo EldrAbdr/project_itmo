@@ -1,0 +1,46 @@
+.industrial__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+.industrial__card:hover {
+    background-color: #009FAC;
+}
+
+.industrial__card:hover .industrial__card-title {
+    color: #ffffff;
+}
+
+.industrial__card:hover .industrial__card-subtitle {
+    color: #ffffff;
+}
+
+.industrial__card:hover .industrial__card-bnt {
+    border: none;
+    color: #009fac;
+}
+
+@media screen and (min-width: 768px) {
+    .industrial__card {
+        padding: 12px;
+    }
+
+    .industrial__card:hover {
+        transform: translateY(-10px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .industrial__card {
+        padding: 30px 20px;
+    }
+}

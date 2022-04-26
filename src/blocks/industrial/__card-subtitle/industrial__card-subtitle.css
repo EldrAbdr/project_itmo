@@ -1,0 +1,23 @@
+.industrial__card-subtitle {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+    margin: 0 0 16px;
+    text-align: center;
+    color: #001337;
+    transition: color .3s linear;
+}
+
+@media screen and (min-width: 768px) {
+    .industrial__card-subtitle {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .industrial__card-subtitle {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

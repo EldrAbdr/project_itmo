@@ -36,7 +36,7 @@ linkEducation.addEventListener('click', () => {
         linkPopUp.style.opacity = 1
     }
 })
-//всплывающие ссылки на телефоне
+//всплывающие ссылки на телефоне header
 const linkEducationMobile = document.querySelector('#educm');
 const linkOpacity = document.querySelectorAll('.opacity');
 const linkPopUpMobile = document.querySelector('.header__link_mobile_group');
@@ -86,3 +86,12 @@ feedbackForm.addEventListener('submit', (evt) => {
 
 feedbackForm.addEventListener('input', checkInputValidity);
 //форма feedback
+
+//industrial анимация карточек при наведении курсора
+const industrialCardContainer = document.querySelector('.industrial__cards');
+const cardArray = Array.from(industrialCardContainer.querySelectorAll('.industrial__card'));
+cardArray.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+
+    })
+});

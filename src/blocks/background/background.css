@@ -1,6 +1,4 @@
 .background {
-    background: url(../../images/Background.png);
-    background-repeat: no-repeat;
     background-size: contain;
-    background-color: #001337;
+    background: #001337 url(../../images/Background.png) no-repeat;
 }
