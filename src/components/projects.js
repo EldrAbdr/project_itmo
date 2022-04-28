@@ -1,7 +1,7 @@
 import { projectsArray } from "../utils/projectsArrey.js";
 
 // слайдер _______________________________________________________________
-let swiper = new Swiper(".mySwiper-projects", {
+const swiper = new Swiper(".mySwiper-projects", {
   slidesPerView: 1,
   spaceBetween: 0,
   slidesPerGroup: 1,

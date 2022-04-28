@@ -1,3 +1,7 @@
+import './pages/index.css'
+import './components/Swiper.js'
+import './components/projects.js'
+
 // мобильное меню
 const burgerMenu = document.querySelector('.header__buttonMenu');
 const menu = document.querySelector('.header__menu');

@@ -15,9 +15,7 @@
 * HTML 5
 * CSS 3
 * JavaScript
-* FIGMA
-* Grid Layout
-* FlexBox
+* Webpack
 
 **Ссылка на GitHub Pages**
 
